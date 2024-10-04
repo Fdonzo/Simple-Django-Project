@@ -3,7 +3,6 @@ from django.http import HttpResponse, HttpResponseNotFound, HttpResponseRedirect
 from django.urls import reverse
 
 # Create your views here.
-
 monthly_challenges = {
     "january"  : "Eat right for the entire month!" ,
     "february" : "Watch motivation lectures 20 minuates every day!",
